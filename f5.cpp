@@ -22,7 +22,12 @@ int maxArrayValue(int arrayOfDigits[], int size);
 int main(void)
 {
     int arrayOfDigits[10] = {};
+ modifyArrayValues(arrayOfDigits, 10);
 
+    int maxIndex = maxArrayValue(arrayOfDigits, 10);
+
+    printf("The highest value is %d at index %d \n", arrayOfDigits[maxIndex], maxIndex);
+    return 0;
    
 }
 
