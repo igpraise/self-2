@@ -1,7 +1,7 @@
 /*
 * FILE : f5.cpp
 * PROJECT : SENG1000-focuse 5
-* PROGRAMMER : ignatius chinonso
+* PROGRAMMER : ignatius chinonso (8992750)
 * FIRST VERSION : 2024-02-23
 DESCRIPTION :Pass arrays as parameters.
 • Design computer programs and functions for modularity, maintainability, and ease of
