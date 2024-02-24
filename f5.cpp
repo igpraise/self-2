@@ -40,3 +40,18 @@ int getNum(void)
     return number;
 }
 
+void modifyArrayValues(int arrayOfDigits[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        int enteredNum = getNum();
+        if (enteredNum == -1)
+        {
+            printf("Invalid input. Enter a number: ");
+            i--;
+            continue;
+        }
+        arrayOfDigits[i] = enteredNum;
+    }
+}
+
