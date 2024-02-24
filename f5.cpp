@@ -16,6 +16,7 @@ reuse
 
 int getNum(void);
 void modifyArrayValues(int arrayOfDigits[], int size);
+int maxArrayValue(int arrayOfDigits[], int size);
 
 
 int main(void)
@@ -53,5 +54,18 @@ void modifyArrayValues(int arrayOfDigits[], int size)
         }
         arrayOfDigits[i] = enteredNum;
     }
+}
+
+int maxArrayValue(int arrayOfDigits[], int size)
+{
+    int maxIndex = 0;
+    for (int i = 1; i < size; i++)
+    {
+        if (arrayOfDigits[i] > arrayOfDigits[maxIndex])
+        {
+            maxIndex = i;
+        }
+    }
+    return maxIndex;
 }
 
